@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-repeat: repeat;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+#list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+#one{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 4rem;
+    margin-bottom: 15rem;
+}
+#vid1{
+    max-width: 36.25rem;
+    min-width: 19.94rem;
+}
+.bold{
+    font-weight: 700;
+    font-size: 6rem;
+    word-spacing: 0;
+    line-height: 6rem;
+    margin: 0;
+}
+.light{
+    font-size: 1.8rem;
+}
+#OneOne{
+    padding: 1rem;
+}
+.coming{
+    background-color: #0460CE;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    cursor: pointer;
+}
+.lightBox{
+    padding: 0.6rem 1.5rem 0.6rem 1.5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: #b7d0edcd;
+    color: #0460CE;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.7rem;
+}
+#swapify{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0460CE;
+}
+#swapImg{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#vid2{
+    max-width: 36.25rem;
+    min-width: 19.94rem;
+    border-radius: 1rem;
+}
+#twoRoot{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 4rem;
+}
+#twoTwo{
+    max-width: 40%;
+}
+.lessBold{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+.lessLight{
+    font-size: 1.4rem;
+}
+.bookDemo{
+    background-color: white;
+    border: 0.2rem solid #0460CE;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 0.5rem;
+    color:#0460CE;
+    text-align: center;
+    width: fit-content;
+    cursor: pointer;
+}
+.bookDemo:hover{
+    background-color: #0460CE;
+    color: white;
+}
+#buttonBox{
+    display: flex;
+}
+#infoBoxRoot{
+    padding: 6rem;
+    background-color: #0460CE;
+    color: white;
+    max-width: 75%;
+    height: auto;
+    border-radius: 1.5rem;
+}
+#threeRoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    gap: 4rem;
+}
+#buttonBox{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.buttons{
+
+   background-color: white;
+   color: #0460CE;
+   padding: 1rem 2.5rem 1rem 2.5rem;
+   border: 0.1rem solid white;
+   border-radius: 2rem;
+   cursor: pointer;
+}
+#selectedHead{
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+.selected{
+    background-color: #0460CE;
+    color: white;
+    border: 0.1rem solid white;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.lastDiv{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 1rem;
+    padding: 2rem;
+}
+.infoImage{
+    max-width: 13.32rem;
+    padding: 3rem;
+}
+#contentBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#cardRoot{
+    display: flex;
+    gap: 4rem;
+    padding: 3rem;
+}
+#card{
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6rem;
+    border-radius: 3rem;
+}
+#cardSpan{
+    color: #ffffffba;
+}
+#cardPara{
+    color: #ffffff62;
+}
+#num{
+    color: rgba(255, 255, 255, 0.849);
+}
+#divOne{
+    display: flex;
+    justify-content: space-between;
+}
+#icon{
+    max-width: 2.5rem;
+    cursor: pointer;
+
+}
+#icons{
+    padding: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width:786px) {
+    html{
+        font-size: 8px;
+    }
+    #one{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #OneOne{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cardRoot{
+        display: flex;
+        flex-direction: column;
+    }
+    #twoRoot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #twoTwo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
